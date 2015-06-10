@@ -78,6 +78,8 @@ time {
 	height: 36px;
 	width: 36px;
 	background-color: pink;
+	background: radial-gradient(circle, white, aqua);
+	box-shadow: 0 0 7px 7px aqua;
 	border-radius: 100%;
 	position: absolute;
 	z-index: 8;
