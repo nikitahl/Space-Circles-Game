@@ -16,3 +16,5 @@ This game is collaborate friendly. Feel free to improve and add to this project.
 ##Autor:
 
 Nikita Hlopov
+
+http://nikitahl.github.io/Space-Circles-Game/
