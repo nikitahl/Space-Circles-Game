@@ -18,3 +18,5 @@ Version:
 Autor:
 
 Nikita Hlopov
+
+http://nikitahl.github.io/Space-Circles-Game/
