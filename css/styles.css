@@ -1,0 +1,109 @@
+body {
+	box-sizing: border-box;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background-color: #fff;
+}
+
+.wrapper {
+	position: relative;
+	top: 100px;
+	width: 60%;
+	margin: 20px auto 5px;
+	padding: 50px;
+}
+
+h1, p, time {
+	font-family: Verdana, sans-serif;
+	text-align: center;
+}
+
+.start-btn {
+	display: block;
+	margin: 40px auto;
+	padding: 10px 25px;
+	border: 2px solid #000;;
+	background-color: #fff;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.start-btn:hover {
+	border: 2px solid #eee;
+	color: #eee;
+	cursor: pointer;
+}
+
+.blackDiv {
+	position: absolute;
+	top: 30px;
+	left: 0;
+	z-index: 5;
+	width: 100%;
+	height: 95%;
+	margin: 0;
+	background-color: #000;
+	background-image: url('img/sky2.png');
+	background-repeat: repeat;
+	cursor: url('img/transparentcursor.cur'), auto;
+}
+
+.hudDiv {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 6;
+	width: 100%;
+	height: 5%;
+	margin: 0;
+	background-color: #000;
+	color: green;
+	cursor: url('img/transparentcursor.cur'), auto;
+}
+
+.gameScore {
+	display: inline-block;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+
+time {
+	float: right;
+	margin: 0;
+	padding: 10px;
+}
+
+.circle {
+	position: absolute;
+	z-index: 8;
+	width: 36px;
+	height: 36px;
+	background-color: pink;
+	background: -webkit-radial-gradient(circle, white, aqua);
+	background: 				radial-gradient(circle, white, aqua);
+	box-shadow: 0 0 7px 7px aqua;
+	border-radius: 100%;
+	-webkit-transition: opacity 1s;
+					transition: opacity 1s;
+}
+
+@media (max-width: 726px) {
+	.description {
+		font-size: 1em;
+	}
+
+	.heading {
+		font-size: 1.5em;
+	}
+
+	.start-btn {
+		font-size: 1em;
+	}
+
+	.wrapper {
+		top: 5px;
+		padding: 30px;
+	}
+}
