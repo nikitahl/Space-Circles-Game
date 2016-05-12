@@ -23,15 +23,15 @@ h1, p, time {
 	display: block;
 	margin: 40px auto;
 	padding: 10px 25px;
-	border: 2px solid #000;;
+	border: 2px solid #000;
 	background-color: #fff;
 	color: #000;
 	text-transform: uppercase;
 }
 
 .start-btn:hover {
-	border: 2px solid #eee;
-	color: #eee;
+	border: 2px solid #bbb;
+	color: #bbb;
 	cursor: pointer;
 }
 
@@ -44,9 +44,9 @@ h1, p, time {
 	height: 95%;
 	margin: 0;
 	background-color: #000;
-	background-image: url('img/sky2.png');
+	background-image: url('../img/sky2.png');
 	background-repeat: repeat;
-	cursor: url('img/transparentcursor.cur'), auto;
+	cursor: url('../img/transparentcursor.cur'), auto;
 }
 
 .hudDiv {
@@ -59,7 +59,7 @@ h1, p, time {
 	margin: 0;
 	background-color: #000;
 	color: green;
-	cursor: url('img/transparentcursor.cur'), auto;
+	cursor: url('../img/transparentcursor.cur'), auto;
 }
 
 .gameScore {
