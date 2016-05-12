@@ -1,7 +1,5 @@
 #Space Circles Game
 
-=====
-
 ##Description:
 
 Simple browser game called Space Circles Game.
